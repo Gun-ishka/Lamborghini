@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODELS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Roboto, Helvetica Neue, Arial;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        .header td {
+            padding: 10px;
+            color: white;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100vh;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            padding: 25px;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 80%;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .caption:hover {
+            background-color: rgba(225, 128, 209, 0.5);
+        }
+
+        .caption h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .caption h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .caption button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: rgb(112, 104, 104);
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .caption button:hover {
+            background-color: rgb(255, 174, 0);
+            color: red;
+            transform: scale(1.1);
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .header td {
+                padding: 8px;
+            }
+
+            .caption {
+                font-size: 18px;
+                padding: 15px;
+            }
+
+            .caption h1 {
+                font-size: 24px;
+            }
+
+            .caption h2 {
+                font-size: 18px;
+            }
+
+            .caption button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <table class="header" border="0" cellspacing="0" cellpadding="0" bgcolor="#181818">
+        <tr>
+            <td><img src="Logo1.png" height="72" width="70"></td>
+            <td><a href="index1.html" style="color: white; text-decoration: none;">HOME</a></td>
+            <td><a href="About.html" style="color: white; text-decoration: none;">ABOUT</a></td>
+            <td><a href="#" style="color: white; text-decoration: none;">MODELS</a></td>
+            <td><a href="Contact.html" style="color: white; text-decoration: none;">CONTACT</a></td>
+            <td><a href="#" style="color: white; text-decoration: none;"></a></td>
+            <td></td>
+        </tr>
+    </table>
+    <div class="video-container">
+        <video src="lambo1_org.mp4" autoplay muted loop style="background-color: rgba(0, 0, 0, 0.5);"></video>
+        <div class="caption">
+            <h1>LAMBORGHINI</h1>
+            <br>
+            <h2>MODELS</h2>
+            <button><a href="Model _1.html" style="text-decoration:none; color:white;"><b>Explore</b></a></button>
+        </div>
+    </div>
+    <div style="text-align: center; background-color:#181818; color: white; padding: 10px;">
+        <p>Fuel consumption combined: 19,5-10,3 l/100km (WLTP); Power consumption combined: 78,1 kWh/100 Km (WLTP);
+            CO2-emissions combined: 442-276 g/km (WLTP)</p>
+    </div>
+</body>
+
+</html>

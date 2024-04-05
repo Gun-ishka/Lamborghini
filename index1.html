@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automobili Lamborghini - Official Website | Lamborghini.com</title>
+    <link rel="icon"
+        href="https://www.lamborghini.com/sites/it-en/files/themes/custom/lambo_facelift_2019/images/logo.png"
+        height="72" width="70">
+    <style>
+        body {
+            margin: 0;
+            font-family: Roboto, Helvetica Neue, Arial;
+            background-color: blanchedalmond;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        .header td {
+            padding: 15px;
+            color: white;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        video {
+            width: 100%;
+            min-height: 100vh;
+            /* Ensure the video covers the full viewport height */
+            object-fit: cover;
+        }
+
+        .caption {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            /* Center the caption horizontally */
+            transform: translate(-50%, -50%);
+            color: rgb(236, 244, 23);
+            font-size: 24px;
+            text-align: center;
+            /* Center the text horizontally */
+            padding: 15px;
+            padding-bottom: 10px;
+        }
+
+        .caption:hover {
+            color: white;
+            transform: scale(1);
+        }
+
+        @media (max-width: 768px) {
+            .caption {
+                font-size: 18px;
+                /* Reduce font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table class="header" border="0" cellspacing="0" cellpadding="0" bgcolor="#181818">
+        <tr>
+            <td><img src="Logo1.png" height="72" width="70"></td>
+            <td><a href="index1.html">HOME</a></td>
+            <td><a href="About.html">ABOUT</a></td>
+            <td><a href="model.html">MODELS</a></td>
+            <td><a href="Contact.html">CONTACT</a></td>
+        </tr>
+    </table>
+    <div class="video-container">
+        <video src="lambo3.mp4" autoplay muted loop></video>
+        <div class="caption">
+            <h1>JOIN US TO DISCOVER MORE!</h1>
+            <span><b>DIREZIONE COR TAURI</b></span>
+        </div>
+    </div>
+    <div style="text-align: center; background-color:#181818; color: white; padding: 10px;">
+        <p>Fuel consumption combined: 19,5-10,3 l/100km (WLTP); Power consumption combined: 78,1 kWh/100 Km (WLTP);
+            CO2-emissions combined: 442-276 g/km (WLTP)</p>
+    </div>
+</body>
+
+</html>
